@@ -18,8 +18,9 @@ La sécurité au niveau des lignes (Row-Level Security) est implémentée pour g
 **Règle réelle :** tous le monde est lecteur et à accès à toutes les pages
 
 ## 3. Diagnostic de Performance
-L'analyseur de performance de Power BI a été utilisé pour valider la fluidité du rapport :
+Voici un résumé des performances globales du tableau de bord, extrait de l'analyseur de performance :
 
+**Résumé de la Performance Globale**
 | Indicateur | Valeur |
 | --- | --- |
 | Nombre total de visuels | 47 |
@@ -28,6 +29,7 @@ L'analyseur de performance de Power BI a été utilisé pour valider la fluidit�
 | Élément le plus lourd | "Forme" (7 346 ms) |
 | Performance globale | <span style="color:orange">Optimisation suggérée</span> |
 
+**Top 5 des visuels les plus gourmands**
 | Visuel | Requête DAX (ms) | Rendu (ms) | Total (ms) |
 | --- | --- | --- | --- |
 | **Forme (Arrière-plan/Déco)** | 911 | 6 435 | 7 346 |
