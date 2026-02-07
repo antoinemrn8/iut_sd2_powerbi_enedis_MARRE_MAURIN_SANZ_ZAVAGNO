@@ -49,6 +49,7 @@ La synthèse du projet. Cette page confronte directement les indicateurs des deu
 Voici les principaux livrables attendus pour ce projet :
 
 - [x]  **Repository GitHub**
+- [ ]  **Maquette**
 - [x]  **Documentation Technique**
 - [x]  **Documentation Fonctionnelle**
 - [x]  **Captation Vidéo**
