@@ -58,7 +58,7 @@ Voici les principaux livrables attendus pour ce projet :
 
 ## Liens utiles
 
-* [Lien vers la maquette]()
+* [Lien vers la maquette](https://www.canva.com/design/DAHArW4maSc/Z1LiJy4RqfNhdi0O4NKEow/edit)
 * [Lien vers le dashboard](https://app.powerbi.com/groups/04ad9a50-cf97-4159-a590-17653dabe2a6/reports/bac97306-b246-459e-8b43-11ec80593d3b/c6f0d6e21be85244d475?experience=power-bi)
 * [Lien vers la vidéo de présentation](https://youtu.be/wGqyyKS5Ad0)
 * [Lien vers la documentation technique](https://github.com/antoinemrn8/iut_sd2_powerbi_enedis_MARRE_MAURIN_SANZ_ZAVAGNO/blob/main/Documentations/Documentation%20technique.md)
