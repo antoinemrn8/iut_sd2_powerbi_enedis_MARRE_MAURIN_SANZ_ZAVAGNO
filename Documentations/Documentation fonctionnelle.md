@@ -18,7 +18,15 @@ L'utilisateur peut affiner son analyse grâce à des filtres dynamiques situés 
 * **Type de chauffage :** Analyse de l'impact du gaz, de l'électrique ou du bois.
 * **Classe DPE :** Focus spécifique sur les "passoires thermiques" (classes F et G).
 
-## 4. Profils Utilisateurs (Rôles)
-L'accès aux données est segmenté selon trois profils types :
-1. Maire (Ain et Gard) : Accès restreint aux données de son département de rattachement.
-2. Préfet : Vue consolidée sur l'ensemble des territoires pour comparer les performances inter-départementales.
+## 4. Structure du Dashboard Power BI
+
+Le rapport se décompose en trois axes majeurs pour une lecture progressive des données :
+
+* #### Page 1 : Analyse du Gard
+Analyse de la situation dans le Gard. Ce volet permet d'identifier l'impact de la précarité énergétique sur le territoire et de mesurer l'ampleur du chantier de rénovation à venir face aux interdictions de location progressives.
+
+* #### Page 2 : Analyse de l'Ain
+Focus sur les spécificités du parc immobilier de l'Ain. L'objectif est d'observer si un haut niveau de revenu se traduit mécaniquement par une part plus faible de "passoires énergétiques" (étiquettes F et G).
+
+* #### Page 3 : Analyse Croisée
+La synthèse du projet. Cette page confronte directement les indicateurs des deux départements pour mettre en lumière les disparités (ou les similitudes surprenantes) entre richesse territoriale et étiquettes climatiques.
