@@ -15,15 +15,18 @@ La sécurité au niveau des lignes (Row-Level Security) est implémentée pour g
   * `Role_Maire_30` : `[Code_Departement]` = "30"
   * `Role_Admin` : Pas de filtre (vue globale).
 
-** Règle réelle :** tous le monde est lecteur et à accès à toutes les pages
+**Règle réelle :** tous le monde est lecteur et à accès à toutes les pages
 
 ## 3. Diagnostic de Performance
 L'analyseur de performance de Power BI a été utilisé pour valider la fluidité du rapport :
-| Élément | Temps de chargement moyen | Statut |
-| --- | --- | --- |
-| Requêtes DAX | < 150 ms | Optimisé |
-| Affichage Visuel | < 300 ms | Fluide |
-| Autres (moteur) | < 50 ms | Excellent |
+
+| Indicateur | Valeur |
+| --- | --- |
+| Nombre total de visuels | 47 |
+| Temps moyen de requête (DAX) | 1 303 ms |
+| Temps moyen de rendu visue | l565 ms |
+| Élément le plus lourd | "Forme" (7 346 ms) |
+| Performance globale | <span style="color:orange">Optimisation suggérée</span> |
 
 **Optimisations effectuées :**
 * Récupération des lignes jugées utilent seulement avec R
