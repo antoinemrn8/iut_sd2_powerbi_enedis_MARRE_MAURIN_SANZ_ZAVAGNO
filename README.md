@@ -17,7 +17,11 @@ Dans ce contexte, le Diagnostic de Performance Energétique (DPE) permet d’év
 
 Dans un contexte marqué par l'accélération du changement climatique et la volatilité des prix de l'énergie, la **sobriété énergétique** est devenue un enjeu majeur de santé publique et d'économie nationale.
 
-Ce projet s'inscrit dans la lignée de la Stratégie Bas Carbone (SNBC), dont l'un des objectifs phares est la neutralité carbone d'ici 2050. Pour atteindre cet horizon, l'amélioration de la performance énergétique des bâtiments est un levier critique. À travers l'analyse des données de Diagnostic de Performance Énergétique (DPE) et les chiffres clés fournis par Enedis, ce dashboard Power BI explore la corrélation entre les moyens financiers d'un territoire et la qualité thermique de son parc immobilier.
+Ce projet s'inscrit dans la lignée de la **Stratégie Bas Carbone (SNBC)**, dont l'un des objectifs phares est la neutralité carbone d'ici 2050. Pour atteindre cet horizon, l'amélioration de la performance énergétique des bâtiments est un levier critique. À travers l'analyse des données de **Diagnostic de Performance Énergétique (DPE)** et les chiffres clés fournis par Enedis, ce dashboard Power BI explore la corrélation entre les moyens financiers d'un territoire et la qualité thermique de son parc immobilier.
+
+### Problématique
+
+*"Dans quelle mesure le niveau de richesse d'un département, mesuré par le revenu fiscal moyen par foyer, influence-t-il la performance énergétique des logements évaluée par les étiquettes DPE ?"*
 
 ## Objectifs globaux & Livrables
 
