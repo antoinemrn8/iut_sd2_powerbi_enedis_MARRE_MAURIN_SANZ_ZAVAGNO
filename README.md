@@ -24,9 +24,22 @@ Nous avons choisi de confronter deux départements aux profils socio-économique
 Le rapport se décompose en trois axes majeurs pour une lecture progressive des données :
 
 * Page 1 : Analyse de l'Ain
-  * Focus sur les spécificités du parc immobilier de l'Ain. L'objectif est d'observer si un haut niveau de revenu se traduit mécaniquement par une part plus faible de "passoires énergétiques" (étiquettes F et G).
+  Focus sur les spécificités du parc immobilier de l'Ain. L'objectif est d'observer si un haut niveau de revenu se traduit mécaniquement par une part plus faible de "passoires énergétiques" (étiquettes F et G).
 * Page 2 : Analyse du Gard
+  Analyse de la situation dans le Gard. Ce volet permet d'identifier l'impact de la précarité énergétique sur le territoire et de mesurer l'ampleur du chantier de rénovation à venir face aux interdictions de location progressives.
 * Page 3 : Analyse Croisée
+  La synthèse du projet. Cette page confronte directement les indicateurs des deux départements pour mettre en lumière les disparités (ou les similitudes surprenantes) entre richesse territoriale et étiquettes climatiques.
+
+## Sources & Méthodologie
+
+* Données DPE : Évaluation de la consommation d'énergie et des émissions de GES (étiquettes A à G).
+
+* Données Enedis : Analyses et chiffres clés pour l'orientation des décisions énergétiques.
+
+* Données Fiscales : Revenus moyens déclarés par foyer à l'administration fiscale.
+
+* Outils : Power BI Desktop, Power Query pour le nettoyage des données (ETL).
+
 
 
 
