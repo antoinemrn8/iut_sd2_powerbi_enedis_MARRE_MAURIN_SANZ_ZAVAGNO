@@ -22,3 +22,8 @@ L'analyseur de performance de Power BI a été utilisé pour valider la fluidit�
 | Requêtes DAX | < 150 ms | Optimisé |
 | Affichage Visuel | < 300 ms | Fluide |
 | Autres (moteur) | < 50 ms | Excellent |
+
+**Optimisations effectuées :**
+* Suppression des colonnes inutiles dans Power Query (Réduction de la taille du fichier).
+* Utilisation de mesures explicites au lieu de mesures implicites.
+* Désactivation de l'option "Date/Heure automatique" pour alléger le modèle.
