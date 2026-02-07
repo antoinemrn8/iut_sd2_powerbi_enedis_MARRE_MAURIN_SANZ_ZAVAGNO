@@ -1,11 +1,25 @@
 # Documentation Technique
 Architecture & Modélisation de l'Application
 
-## 1. Modèle de Données
-Le modèle est structuré selon un Schéma en Étoile (Star Schema) pour optimiser les performances de calcul DAX et la lisibilité :
-* Table de Faits (Fact_DPE) : Contient toutes les mesures quantitatives (consommations, surfaces, scores numériques).
-* Tables de Dimensions (Dim_Geographie, Dim_Temps, Dim_Batiment) : Contient les attributs descriptifs utilisés pour les filtres et les axes des graphiques.
-#### Note : Les relations sont de type 1:N (une-à-plusieurs) avec une direction de filtrage unique pour garantir l'intégrité du modèle.
+## 1. Architecture du Modèle de Données
+Le modèle est conçu selon une architecture en schéma en étoile (Star Schema). Cette structure garantit une simplicité de maintenance et des performances de calcul optimales en minimisant les jointures complexes.
+
+**Schéma Conceptuel**
+Le cœur du modèle est la table de faits, entourée de dimensions normalisées :
+* **Table de Faits (`FaitsDPE`) :** Centralise les données brutes des diagnostics (consommation énergétique, émissions de CO2, surfaces).
+* **Dimensions (Tables de référence) :**
+  * `DimCommune`, `DimDepartement` & `DimRegion`: Hiérarchie géographique permettant l'analyse par département (01 - Ain et 30 - Gard).
+  * `DimBatiment` : Caractéristiques physiques des biens.
+  * `DimPeriodeConstruction` : Segmentation temporelle des constructions.
+  * `DimChauffage` : Typologie des sources d'énergie.
+  * `DimDPE` & `DimGES` : Référentiels des classes énergétiques (A à G).
+  * `Mesures` : Table technique regroupant l'ensemble des indicateurs DAX (Moyennes, % de passoires thermiques, etc.).
+  * `Calendrier` : Dates
+ 
+**Relations**
+* **Cardinalité :** Toutes les relations sont de type 1:N (Une-à-plusieurs) depuis les dimensions vers la table de faits.
+* **Sens du filtrage :** Unique (des dimensions vers les faits) pour éviter les ambiguïtés de calcul et les boucles de filtrage.
+
 
 ## 2. Sécurité des Données (RLS)
 La sécurité au niveau des lignes (Row-Level Security) est implémentée pour garantir la confidentialité entre les départements :
@@ -38,8 +52,8 @@ Voici un résumé des performances globales du tableau de bord, extrait de l'ana
 | **Distribution des DPE** | 3 524 | 671 | 4 195 |
 | **Répartition périodes construction** | 3 331 | 504 | 3 835 |
 
-**Optimisations effectuées :**
-* Récupération des lignes jugées utilent seulement avec R
-* Suppression des colonnes inutiles dans Power Query (Réduction de la taille du fichier).
-* Utilisation de mesures explicites au lieu de mesures implicites.
-* Désactivation de l'option "Date/Heure automatique" pour alléger le modèle.
+** 4. Maintenance et Évolutivité
+* **Source de données :** Les données sont issues des extractions ADEME pour les départements 01 et 30.
+* **Ajout de données :** Pour intégrer un nouveau département (ex: Haute-Savoie - 74), il suffit d'ajouter les lignes correspondantes dans les tables FaitsDPE et DimCommune et de créer le rôle RLS associé.
+* **Normalisation :** Les libellés des classes DPE et GES sont harmonisés dans les tables Dim pour éviter les erreurs de saisie provenant des données sources.
+
