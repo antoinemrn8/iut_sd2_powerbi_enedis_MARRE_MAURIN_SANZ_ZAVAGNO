@@ -10,10 +10,12 @@ Le modèle est structuré selon un Schéma en Étoile (Star Schema) pour optimis
 ## 2. Sécurité des Données (RLS)
 La sécurité au niveau des lignes (Row-Level Security) est implémentée pour garantir la confidentialité entre les départements :
 * Logique de filtrage : La table Dim_Geographie est filtrée dynamiquement via la fonction USERPRINCIPALNAME().
-* Règles appliquées :
+* Règles souhaitées :
   * `Role_Maire_01` : `[Code_Departement]` = "01"
   * `Role_Maire_30` : `[Code_Departement]` = "30"
   * `Role_Admin` : Pas de filtre (vue globale).
+
+** Règle réelle :** tous le monde est lecteur et à accès à toutes les pages
 
 ## 3. Diagnostic de Performance
 L'analyseur de performance de Power BI a été utilisé pour valider la fluidité du rapport :
