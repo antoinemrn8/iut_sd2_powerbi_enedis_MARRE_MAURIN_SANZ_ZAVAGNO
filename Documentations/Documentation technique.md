@@ -24,9 +24,17 @@ L'analyseur de performance de Power BI a été utilisé pour valider la fluidit�
 | --- | --- |
 | Nombre total de visuels | 47 |
 | Temps moyen de requête (DAX) | 1 303 ms |
-| Temps moyen de rendu visue | l565 ms |
+| Temps moyen de rendu visuel | 565 ms |
 | Élément le plus lourd | "Forme" (7 346 ms) |
 | Performance globale | <span style="color:orange">Optimisation suggérée</span> |
+
+| Visuel | Requête DAX (ms) | Rendu (ms) | Total (ms) |
+| --- | --- | --- | --- |
+| **Forme (Arrière-plan/Déco)** | 911 | 6 435 | 7 346 |
+| **Besoin de chauffage par m²** | 4 034 | 554 | 4 588 |
+| **Image (Logos/Icones)** | 2 866 | 1 708 | 4 574 |
+| **Distribution des DPE** | 3 524 | 671 | 4 195 |
+| **Répartition périodes construction** | 3 331 | 504 | 3 835 |
 
 **Optimisations effectuées :**
 * Récupération des lignes jugées utilent seulement avec R
