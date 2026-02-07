@@ -38,10 +38,10 @@ La synthèse du projet. Cette page confronte directement les indicateurs des deu
 
 ## Sources & Méthodologie
 
-* Données DPE : Évaluation de la consommation d'énergie et des émissions de GES (étiquettes A à G).
-* Données Enedis : Analyses et chiffres clés pour l'orientation des décisions énergétiques.
-* Données Fiscales : Revenus moyens déclarés par foyer à l'administration fiscale.
-* Outils : Power BI Desktop, Power Query pour le nettoyage des données (ETL).
+* **Données DPE :** Évaluation de la consommation d'énergie et des émissions de GES (étiquettes A à G).
+* **Données Enedis :** Analyses et chiffres clés pour l'orientation des décisions énergétiques.
+* **Données Fiscales :** Revenus moyens déclarés par foyer à l'administration fiscale.
+* **Outils :** Power BI Desktop, Power Query pour le nettoyage des données (ETL).
 
 
 ## Objectifs globaux & Livrables
