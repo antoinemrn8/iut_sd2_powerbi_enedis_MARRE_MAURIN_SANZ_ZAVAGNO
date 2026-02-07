@@ -54,6 +54,6 @@ Voici un résumé des performances globales du tableau de bord, extrait de l'ana
 
 ** 4. Maintenance et Évolutivité
 * **Source de données :** Les données sont issues des extractions ADEME pour les départements 01 et 30.
-* **Ajout de données :** Pour intégrer un nouveau département (ex: Haute-Savoie - 74), il suffit d'ajouter les lignes correspondantes dans les tables FaitsDPE et DimCommune et de créer le rôle RLS associé.
+* **Ajout de données :** Pour intégrer un nouveau département (ex: Haute-Savoie - 74), il suffit d'ajouter les lignes correspondantes dans les tables `FaitsDPE` et `DimCommune` et de créer le rôle RLS associé.
 * **Normalisation :** Les libellés des classes DPE et GES sont harmonisés dans les tables Dim pour éviter les erreurs de saisie provenant des données sources.
 
