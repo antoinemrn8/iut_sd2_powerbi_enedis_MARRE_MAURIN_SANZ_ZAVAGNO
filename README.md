@@ -24,7 +24,7 @@ Nous avons choisi de confronter deux départements aux profils socio-économique
 Le rapport se décompose en trois axes majeurs pour une lecture progressive des données :
 
 * Page 1 : Analyse de l'Ain
-** Focus sur les spécificités du parc immobilier de l'Ain. L'objectif est d'observer si un haut niveau de revenu se traduit mécaniquement par une part plus faible de "passoires énergétiques" (étiquettes F et G).
+  * Focus sur les spécificités du parc immobilier de l'Ain. L'objectif est d'observer si un haut niveau de revenu se traduit mécaniquement par une part plus faible de "passoires énergétiques" (étiquettes F et G).
 * Page 2 : Analyse du Gard
 * Page 3 : Analyse Croisée
 
