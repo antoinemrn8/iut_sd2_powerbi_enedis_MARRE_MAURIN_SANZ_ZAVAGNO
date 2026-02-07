@@ -50,7 +50,7 @@ Voici les principaux livrables attendus pour ce projet :
 
 - [x]  **Repository GitHub**
 - [ ]  **Documentation Technique**
-- [ ]  **Documentation Fonctionnelle**
+- [x]  **Documentation Fonctionnelle**
 - [ ]  **Captation Vidéo**
 - [x]  **DashBoard PowerBI**
 
