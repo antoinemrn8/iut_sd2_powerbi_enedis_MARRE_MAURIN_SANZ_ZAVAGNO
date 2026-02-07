@@ -11,8 +11,8 @@ Le modèle est structuré selon un Schéma en Étoile (Star Schema) pour optimis
 La sécurité au niveau des lignes (Row-Level Security) est implémentée pour garantir la confidentialité entre les départements :
 * Logique de filtrage : La table Dim_Geographie est filtrée dynamiquement via la fonction USERPRINCIPALNAME().
 * Règles appliquées :
-  * `Role_Maire_75` : `[Code_Departement]` = "75"
-  * `Role_Maire_77` : `[Code_Departement]` = "77"
+  * `Role_Maire_01` : `[Code_Departement]` = "01"
+  * `Role_Maire_30` : `[Code_Departement]` = "30"
   * `Role_Admin` : Pas de filtre (vue globale).
 
 ## 3. Diagnostic de Performance
