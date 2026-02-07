@@ -24,6 +24,7 @@ L'analyseur de performance de Power BI a été utilisé pour valider la fluidit�
 | Autres (moteur) | < 50 ms | Excellent |
 
 **Optimisations effectuées :**
+* Récupération des lignes jugées utilent seulement avec R
 * Suppression des colonnes inutiles dans Power Query (Réduction de la taille du fichier).
 * Utilisation de mesures explicites au lieu de mesures implicites.
 * Désactivation de l'option "Date/Heure automatique" pour alléger le modèle.
