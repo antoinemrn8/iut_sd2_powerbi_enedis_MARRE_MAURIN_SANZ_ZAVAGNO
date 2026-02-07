@@ -1,5 +1,5 @@
 # Documentation Technique
-Architecture & Modélisation de l'Application
+**Architecture & Modélisation de l'Application**
 
 ## 1. Architecture du Modèle de Données
 Le modèle est conçu selon une architecture en schéma en étoile (Star Schema). Cette structure garantit une simplicité de maintenance et des performances de calcul optimales en minimisant les jointures complexes.
