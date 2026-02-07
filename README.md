@@ -62,3 +62,4 @@ Voici les principaux livrables attendus pour ce projet :
 * [Lien vers la vidéo de présentation](https://youtu.be/wGqyyKS5Ad0)
 * [Lien vers la documentation technique](https://github.com/antoinemrn8/iut_sd2_powerbi_enedis_MARRE_MAURIN_SANZ_ZAVAGNO/blob/main/Documentations/Documentation%20technique.md)
 * [Lien vers la documentation fonctionnelle](https://github.com/antoinemrn8/iut_sd2_powerbi_enedis_MARRE_MAURIN_SANZ_ZAVAGNO/blob/main/Documentations/Documentation%20fonctionnelle.md)
+* [Lien vers la maquette]()
