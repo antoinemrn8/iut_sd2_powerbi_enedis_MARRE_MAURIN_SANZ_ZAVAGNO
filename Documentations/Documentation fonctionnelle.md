@@ -12,7 +12,7 @@ L'application s'articule autour de quatre types de visuels complémentaires :
 * Nuages de Points (Scatter Plots) : Utiles pour la relation entre la surface des logements et le besoin de chauffages.
 
 ## 3. Fonctionnalités et Interactivité
-L'utilisateur peut affiner son analyse grâce à des filtres dynamiques situés dans le volet latéral :
+L'utilisateur peut affiner son analyse grâce à des filtres dynamiques situés dans le volet supérieur :
 * **Période de construction :** Pour cibler les bâtiments anciens ou récents.
 * **Type de bâtiment :** Distinction entre résidentiel individuel, collectif ou tertiaire.
 * **Type de chauffage :** Analyse de l'impact du gaz, de l'électrique ou du bois.
