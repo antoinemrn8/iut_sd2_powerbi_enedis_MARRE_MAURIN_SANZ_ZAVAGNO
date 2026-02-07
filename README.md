@@ -23,6 +23,16 @@ Ce projet s'inscrit dans la lignée de la **Stratégie Bas Carbone (SNBC)**, don
 
 *"Dans quelle mesure le niveau de richesse d'un département, mesuré par le revenu fiscal moyen par foyer, influence-t-il la performance énergétique des logements évaluée par les étiquettes DPE ?"*
 
+### Territoires Étudiés
+
+Nous avons choisi de confronter deux départements aux profils socio-économiques diamétralement opposés pour tester notre hypothèse :
+
+| Département | Profil Économique | Revenu Fiscal Moyen / Foyer |
+| --- | --- | --- |
+| **Ain (01)** | Territoire "Riche" | **36 651 €** / an |
+| **Gard (30)** | Territoire "Modeste" | **26 885 €** / an |
+
+
 ## Objectifs globaux & Livrables
 
 Voici les principaux livrables attendus pour ce projet :
